@@ -23,7 +23,7 @@ export const TablaLogs = ({paisGuardado}) => {
                         paisGuardado.map((pais, index) => (
                             <React.Fragment key={index}>
                                 <tr>
-                                    <td>{pais.name.common}</td>
+                                    <td>{pais.translations.spa.common}</td>
                                     <td>{pais.translations.spa.official}</td>
                                     <td>{pais.cca3}</td>
                                     <td>{pais.capital}</td>

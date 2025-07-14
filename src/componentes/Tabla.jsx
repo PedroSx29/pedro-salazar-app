@@ -20,7 +20,7 @@ export const Tabla = ({infoPais}) => {
                             <React.Fragment key={index}>
                                 <tr>
                                     <td className="fw-bold">Nombre</td>
-                                    <td>{info.name.common}</td>
+                                    <td>{info.translations.spa.common}</td>
                                 </tr>
                                 <tr>
                                     <td className="fw-bold">Nombre Oficial</td>
